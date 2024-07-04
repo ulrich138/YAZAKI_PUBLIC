@@ -6,13 +6,13 @@ from Formateur import acess_Formateur
 from PIL import Image
 from Operateurs import acess_Operateur
 
-user = "ulrich"
+user = "ulrich1"
 
 app = ctk.CTk()
 ap = app
 app.withdraw()
 fenetreprin = CTkToplevel(app)
-fenetreprin.configure(fg_color="white")
+fenetreprin.cgit onfigure(fg_color="white")
 fenetreprin.state('zoomed')
 fenetreprin.title(" Logiciel de Formation")
 
